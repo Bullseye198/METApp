@@ -1,7 +1,8 @@
-package com.metapp
+package com.metapp.features.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.metapp.R
 import com.metapp.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
