@@ -1,6 +1,7 @@
 plugins {
     id 'java-library'
-    id 'org.jetbrains.kotlin.jvm'
+    id 'kotlin'
+    id 'kotlin-kapt'
 }
 
 java {
@@ -10,4 +11,8 @@ java {
 
 dependencies {
     implementation project(path: ':common:base')
+
+    //Dagger
+    implementation 'com.google.dagger:dagger:2.44.2'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.44.2'
 }
